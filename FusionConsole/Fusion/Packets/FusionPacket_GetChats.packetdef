@@ -1,0 +1,5 @@
+BeginPacket(GetChats, GET_CHATS)
+	UIntField	(	1,				revision	)
+	UIntField	(	2,				limit		)	// Optional
+	EnumField	(	3,	ChatType,	chatType	)	// Optional
+EndPacket(GetChats)

@@ -1,0 +1,6 @@
+BeginEnum(UserType, Byte)
+	Value(1, STANDARD)
+	Value(2, MERCHANT)
+	Value(3, TOP_MERCHANT)
+	Value(4, PREPAID_CARD)
+EndEnum(UserType)

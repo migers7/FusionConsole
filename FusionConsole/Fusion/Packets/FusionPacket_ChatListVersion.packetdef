@@ -1,0 +1,4 @@
+BeginPacket(ChatListVersion, CHAT_LIST_VERSION)
+	UIntField	(  1,	revision	)
+	ULongField	(  2,	timestamp	)
+EndPacket(ChatListVersion)

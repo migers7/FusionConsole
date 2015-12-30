@@ -1,0 +1,8 @@
+BeginEnum(PresenceType, Byte)
+	Value(0, UNDEFINED)
+	Value(1, AVAILABLE)
+	Value(2, ROAMING)
+	Value(3, BUSY)
+	Value(4, AWAY)
+	Value(99, OFFLINE)
+EndEnum(PresenceType)

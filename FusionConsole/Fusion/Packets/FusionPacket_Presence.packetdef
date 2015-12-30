@@ -1,0 +1,4 @@
+BeginPacket(Presence, PRESENCE)
+	UIntField	(	1,					contactId		)
+	EnumField	(   2,  PresenceType,	presence		)
+EndPacket(Presence)

@@ -1,0 +1,6 @@
+BeginEnum(ChatType, Byte)
+	Value(1, PRIVATE)
+	Value(2, GROUP_CHAT)
+	Value(3, CHAT_ROOM)
+	Value(4, DISTRIBUTION_LIST)
+EndEnum(ChatType)

@@ -1,0 +1,3 @@
+BeginPacket(LoginResponse, LOGIN_RESPONSE)
+	UIntField (  1,  passwordHash	)
+EndPacket(LoginResponse)

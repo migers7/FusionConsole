@@ -1,0 +1,2 @@
+BeginPacket(GetEmoticonsComplete, GET_EMOTICONS_COMPLETE)
+EndPacket(GetEmoticonsComplete)

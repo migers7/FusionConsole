@@ -1,0 +1,5 @@
+BeginPacket(JoinChatRoom, JOIN_CHATROOM)
+	StringField	(	1, chatRoomName		)
+	ByteField	(	2, isFromReconnect	)
+EndPacket(JoinChatRoom)
+

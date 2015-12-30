@@ -1,0 +1,2 @@
+BeginPacket(Ping, PING)
+EndPacket(Ping)

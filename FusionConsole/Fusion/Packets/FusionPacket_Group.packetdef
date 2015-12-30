@@ -1,0 +1,4 @@
+BeginPacket(Group, GROUP)
+	UIntField	(	1,	groupId		)
+	StringField (	2,  name		)
+EndPacket(Group)

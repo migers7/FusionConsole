@@ -1,0 +1,5 @@
+BeginPacket(GetGroupChatParticipants, GET_GROUP_CHAT_PARTICIPANTS)
+	StringField	(	1, 			groupChatId	)
+	EnumField	(	2, IMType,	imType		)
+EndPacket(GetGroupChatParticipants)
+

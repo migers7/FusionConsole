@@ -1,0 +1,5 @@
+BeginPacket(LeaveGroupChat, LEAVE_GROUP_CHAT)
+	StringField	(	1, groupChatId		)
+	EnumField	(	2, IMType,	imType	)
+EndPacket(LeaveGroupChat)
+

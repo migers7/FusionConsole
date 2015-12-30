@@ -1,0 +1,3 @@
+BeginPacket(GetStickerPack, GET_STICKER_PACK)
+	StringArrayField	(	1,	' ',	identifierList	)
+EndPacket(GetStickerPack)

@@ -1,0 +1,15 @@
+BeginPacket(Contact, CONTACT)
+	UIntField	(	1,					contactId			)
+	UIntField	(	2, 					groupId				)
+	StringField (	3,  				displayName			)
+	StringField (   8,  				mobileNumber		)
+	StringField (  12,  				username			)
+	EnumField	(  13,  PresenceType,	presence			)
+	StringField (  27,  				statusMessage		)
+	StringField (  28,  				displayPictureGuid	)
+
+// Optional ByteArray 31 imType
+// Optional ByteArray 32 imPresence
+// Optional StringArray 33 imUsername
+
+EndPacket(Contact)

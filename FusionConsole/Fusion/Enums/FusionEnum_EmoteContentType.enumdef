@@ -1,0 +1,4 @@
+BeginEnum(EmoteContentType, Byte)
+	Value(0, TEXT)
+	Value(1, STICKER)
+EndEnum(EmoteContentType)

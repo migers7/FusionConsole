@@ -1,0 +1,4 @@
+BeginPacket(StickerPackList, STICKER_PACK_LIST)
+	StringArrayField	(	1,	' ',	identifierList	)
+	StringArrayField	(	2,	' ',	versionList		)
+EndPacket(StickerPackList)

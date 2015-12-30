@@ -1,0 +1,7 @@
+BeginPacket(LatestMessagesDigest, LATEST_MESSAGES_DIGEST)
+	StringArrayField	(	1, '\0', 	identifierList	)
+	StringArrayField	(	2, '\0', 	guidList		)
+	StringArrayField	(	3, '\0', 	timeStampList	)
+	ByteArrayField		(	4, 			chatTypeList	)
+EndPacket(LatestMessagesDigest)
+

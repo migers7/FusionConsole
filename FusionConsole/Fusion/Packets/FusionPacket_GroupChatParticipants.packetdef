@@ -1,0 +1,5 @@
+BeginPacket(GroupChatParticipants, GROUP_CHAT_PARTICIPANTS)
+	StringField	(	1, groupChatId	)
+	StringField	(	2, participants	)
+EndPacket(GroupChatParticipants)
+

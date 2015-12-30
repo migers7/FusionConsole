@@ -1,0 +1,5 @@
+BeginPacket(GiftHotkeys, GIFT_HOTKEYS)
+	StringArrayField	(	1,	'\0',	hotkeyList	)
+	StringArrayField	(	2,	'\0',	nameList	)
+	StringArrayField	(	3,	'\0',	priceList	)
+EndPacket(GiftHotkeys)

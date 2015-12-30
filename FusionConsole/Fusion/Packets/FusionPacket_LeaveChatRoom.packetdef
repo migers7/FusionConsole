@@ -1,0 +1,4 @@
+BeginPacket(LeaveChatRoom, LEAVE_CHATROOM)
+	StringField	(	1, chatRoomName	)
+EndPacket(LeaveChatRoom)
+

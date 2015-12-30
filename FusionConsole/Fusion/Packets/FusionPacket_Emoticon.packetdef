@@ -1,0 +1,10 @@
+BeginPacket(Emoticon, EMOTICON)
+	StringField			(	1,			hotkey			)
+	StringArrayField 	(	2,  ' ',	altHotkeys		)
+	StringField			(	3,			alias			)
+	ByteArrayField		(	4,			data			)
+	StringField			(	5,			contentType		)
+	UIntField			(	6,			packId			)
+	StringField			(	7,			url				)
+EndPacket(Emoticon)
+	

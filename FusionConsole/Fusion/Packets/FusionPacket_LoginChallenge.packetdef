@@ -1,0 +1,4 @@
+BeginPacket(LoginChallenge, LOGIN_CHALLENGE)
+	StringField (  1,  challenge	)
+	StringField (  2,  sessionId	)
+EndPacket(LoginChallenge)

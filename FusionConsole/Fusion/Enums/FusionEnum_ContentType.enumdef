@@ -1,0 +1,9 @@
+BeginEnum(ContentType, UShort)
+	Value(0, UNKNOWN)				// Used internally. Not understood by server
+	Value(1, UTF8_TEXT)
+	Value(2, IMAGE)
+	Value(3, AUDIO)
+	Value(4, VIDEO)
+	Value(5, EXISTING_FILE)
+	Value(6, EMOTE)
+EndEnum(ContentType)

@@ -1,0 +1,6 @@
+BeginPacket(EndMessages, END_MESSAGES)
+	StringField	(	1, 	identifier				)
+	StringField	(	2,	beginGuid				)
+	StringField	(	3,	endGuid					)
+	UIntField	(	4,	numberOfMessagesSent	)
+EndPacket(EndMessages)

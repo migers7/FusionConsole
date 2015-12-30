@@ -1,0 +1,6 @@
+BeginPacket(GroupChat, GROUP_CHAT)
+	StringField	(	1, 			groupChatId	)
+	StringField (	2, 			creatorName	)
+	EnumField	(	2, IMType,	imType		)
+EndPacket(GroupChat)
+

@@ -1,0 +1,5 @@
+BeginPacket(StatusMessage, STATUS_MESSAGE)
+	UIntField	(	1,	contactId		)
+	StringField (   2,  statusMessage	)
+	ULongField	(   3,  timestamp		)
+EndPacket(StatusMessage)

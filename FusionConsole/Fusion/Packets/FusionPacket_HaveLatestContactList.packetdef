@@ -1,0 +1,4 @@
+BeginPacket(HaveLatestContactList, HAVE_LATEST_CONTACT_LIST)
+	ULongField	(	1, timestamp	)
+EndPacket(HaveLatestContactList)
+

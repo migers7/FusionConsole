@@ -1,0 +1,7 @@
+BeginPacket(GetMessages, GET_MESSAGES)
+	StringField	(	1, 				identifier		)
+	EnumField	(	2, ChatType,	chatType		)
+	ULongField	(	3,				endTimestamp	)
+	ULongField	(	4,				startTimestamp	)
+	UIntField	(	5,				limit			)
+EndPacket(GetMessages)

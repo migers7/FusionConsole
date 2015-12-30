@@ -1,0 +1,4 @@
+BeginPacket(EmoticonHotkeys, EMOTICON_HOTKEYS)
+	StringArrayField	(	1,	' ', hotkeys		)
+	StringArrayField 	(	2,  ' ', altHotkeys		)
+EndPacket(EmoticonHotKeys)

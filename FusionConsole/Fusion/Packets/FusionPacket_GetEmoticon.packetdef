@@ -1,0 +1,3 @@
+BeginPacket(GetEmoticon, GET_EMOTICON)
+	StringArrayField	(	1,	' ', emoticon	)
+EndPacket(GetEmoticon)

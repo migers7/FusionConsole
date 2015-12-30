@@ -1,0 +1,3 @@
+BeginPacket(SetPresence, SET_PRESENCE)
+	EnumField	(   1,  PresenceType,	presence		)
+EndPacket(SetPresence)

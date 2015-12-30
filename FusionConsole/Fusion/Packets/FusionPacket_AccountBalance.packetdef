@@ -1,0 +1,3 @@
+BeginPacket(AccountBalance, ACCOUNT_BALANCE)
+	StringField	(	1,	accountBalance	)
+EndPacket(AccountBalance)

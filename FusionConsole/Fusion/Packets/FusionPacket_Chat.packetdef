@@ -1,0 +1,23 @@
+BeginPacket(Chat, CHAT)
+	StringField	(	1,					identifier			)
+	StringField	(	2, 					displayName			)
+	EnumField	(   3,	ChatType,		chatType			)
+	UIntField	(	4,					unreadMessageCount	)	// Deprecated
+	UIntField	(	5,					contactId			)
+	StringField	(	6,					groupOwner			)
+	ByteField	(	7,					isClosed			)
+	StringField	(	8,					displayPicture		)
+	EnumField	(	9,	MessageType,	messageType			)
+	ULongField	(  10,					timestamp			)
+	UIntField	(  11,					chatListRevision	)
+	ULongField	(  12,					chatListTimestamp	)
+
+//	/**pt58614336: Optional (missing denotes false).*/
+//	public Byte getIsRenamedChat() { return getByteField((short)13); }
+//	public void setIsRenamedChat(byte renamed) { setField((short)13, renamed); }
+//
+//	/**pt60829322: Optional (missing denotes false).*/
+//	public Byte getIsPassivatedChat() { return getByteField((short)14); }
+//	public void setIsPassivatedChat(byte passivated) { setField((short)14, passivated); }	
+
+EndPacket(Chat)

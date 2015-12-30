@@ -1,0 +1,6 @@
+BeginPacket(GroupChatInvite, GROUP_CHAT_INVITE)
+	StringField			(	1, 			groupChatId	)
+	StringArrayField	(	2, '\0',	invitees	)	// Either a single name, or "web:user1,user2,user3"
+	EnumField			(	3, IMType,	imType		)
+EndPacket(GroupChatInvite)
+

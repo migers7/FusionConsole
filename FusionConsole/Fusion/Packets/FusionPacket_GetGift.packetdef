@@ -1,0 +1,3 @@
+BeginPacket(GetGift, GET_GIFT)
+	UIntField	(	1,	limit	)
+EndPacket(GetGift)

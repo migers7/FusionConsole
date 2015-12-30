@@ -1,0 +1,3 @@
+BeginPacket(SetStatusMessage, SET_STATUS_MESSAGE)
+	StringField (   1,  statusMessage	)
+EndPacket(SetStatusMessage)

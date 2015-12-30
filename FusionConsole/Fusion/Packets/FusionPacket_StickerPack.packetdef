@@ -1,0 +1,7 @@
+BeginPacket(StickerPack, STICKER_PACK)
+	UIntField			(	1,			identifier	)
+	StringField			(	2,			name		)
+	StringArrayField	(	3,	' ',	hotkeys		)
+	StringField			(	4,			iconUrl		)
+	StringField			(	5,			version		)
+EndPacket(StickerPack)

@@ -1,0 +1,2 @@
+BeginPacket(ContactComplete, GET_CONTACTS_COMPLETE)
+EndPacket(ContactComplete)

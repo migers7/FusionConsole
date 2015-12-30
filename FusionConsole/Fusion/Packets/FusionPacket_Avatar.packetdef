@@ -1,0 +1,7 @@
+BeginPacket(Avatar, AVATAR)
+	StringField	(	1,	statusMessage	)
+	StringField	(	2,	displayPicture	)
+	StringField (	3,  badgeHotKey		)
+	StringField (	4,  avatar			)
+	StringField (	5,  fullBodyAvatar	)
+EndPacket(Avatar)

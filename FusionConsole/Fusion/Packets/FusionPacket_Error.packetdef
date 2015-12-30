@@ -1,0 +1,4 @@
+BeginPacket(Error, ERROR)
+	UShortField	(	1,	errorNumber		)
+	StringField (	2,  description		)
+EndPacket(Error)
